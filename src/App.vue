@@ -2,7 +2,6 @@
 <div id="app"
      v-bind:class="{ fw: fw }">
 
-
   <b-container fluid
                class="text-center">
 
@@ -119,8 +118,8 @@ export default {
   name: 'app',
   data() {
     return {
-      fw: true,
-      current: 'up',
+      fw: false,
+      current: 'down',
       currentOptions: [{
           value: 'up',
           text: 'Tabela acima de R$10 (acima-10-reais.json)'
